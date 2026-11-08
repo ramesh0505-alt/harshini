@@ -1,0 +1,17 @@
+{
+  "name": "harshini-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marginalia-style portfolio for Poosapati Harshini — static HTML/CSS/JS.",
+  "scripts": {
+    "start": "npx --yes serve . -l 5173",
+    "dev": "npx --yes serve . -l 5173"
+  },
+  "devDependencies": {
+    "@fontsource/caveat": "^5.0.0",
+    "@fontsource/ibm-plex-mono": "^5.0.0",
+    "@fontsource/inter": "^5.0.0",
+    "@fontsource/playfair-display": "^5.0.0",
+    "qrcode": "^1.5.4"
+  }
+}

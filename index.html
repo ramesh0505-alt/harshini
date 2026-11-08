@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poosapati Harshini — Portfolio</title>
+<meta name="description" content="Poosapati Harshini — Computer Science Engineering student, UI/UX designer and front-end developer from Vijayawada. Figma, HTML, CSS, JavaScript.">
+<link rel="preload" href="assets/fonts/playfair-display-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ fixed marginalia top bar ============ -->
+<header class="topbar">
+  <div class="tb-left">
+    <span class="year">2026</span>
+    <span class="tb-track"><i id="track"></i></span>
+  </div>
+  <div class="tb-mid">Curriculum Vitae</div>
+  <div class="tb-right">
+    <span class="name">Poosapati Harshini</span>
+    <span class="sec" id="sectionLabel">cover</span>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="cover">
+  <div class="hero__mid">
+
+    <!-- long ruled diagonal, top-left -->
+    <div class="hero__line" aria-hidden="true">
+      <svg class="doodle" viewBox="0 0 100 100" preserveAspectRatio="none"
+           style="position:absolute;left:calc(var(--tfs) * .52);top:calc(var(--tfs) * -.72);width:calc(var(--tfs) * 1.06);height:calc(var(--tfs) * .82)">
+        <path class="stroke thin draw" d="M0 2 L100 98"/>
+      </svg>
+    </div>
+
+    <h1 class="hero__title">Portfoli<span class="hero__o">o<svg class="ring doodle" viewBox="0 0 200 100" preserveAspectRatio="none" aria-hidden="true">
+      <ellipse class="stroke draw" cx="100" cy="50" rx="98" ry="46"/>
+    </svg><svg class="spark doodle" viewBox="0 0 40 40" aria-hidden="true">
+      <path class="stroke draw" d="M20 2 C 22 14, 26 18, 38 20 C 26 22, 22 26, 20 38 C 18 26, 14 22, 2 20 C 14 18, 18 14, 20 2 Z"/>
+    </svg></span></h1>
+
+    <div class="hero__sign">
+      Harshini
+      <svg class="doodle" viewBox="0 0 110 110" aria-hidden="true">
+        <path class="stroke draw" d="M104 6 C 74 18, 50 38, 30 76"/>
+        <path class="stroke draw" d="M20 58 L29 80 L44 62"/>
+      </svg>
+    </div>
+
+    <div class="hero__role">
+      UI/UX Designer
+      <svg class="doodle" viewBox="0 0 400 120" aria-hidden="true">
+        <ellipse class="stroke draw" cx="200" cy="62" rx="196" ry="48"/>
+        <ellipse class="stroke thin draw" cx="204" cy="58" rx="186" ry="40" transform="rotate(-2 204 58)"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero__foot">
+    <span>Vijayawada — 2026</span>
+    <a class="hero__scroll" href="#hello">scroll
+      <svg viewBox="0 0 24 30" aria-hidden="true" class="doodle">
+        <path class="stroke draw" d="M10 2 C 18 9, 16 16, 11 22"/>
+        <path class="stroke draw" d="M6 18 L11 24 L15 16"/>
+      </svg>
+    </a>
+    <span>B.Tech CSE · UI/UX &amp; Front-end</span>
+  </div>
+</section>
+
+<!-- ============ HELLO ============ -->
+<section class="section hello" id="hello">
+  <div class="hello__visual reveal">
+    <div class="portrait-wrap">
+      <div class="portrait">
+        <img src="assets/img/portrait.jpg" alt="Poosapati Harshini" width="1024" height="1365">
+      </div>
+
+      <div class="crop" aria-hidden="true">
+        <svg viewBox="0 0 300 400" preserveAspectRatio="none">
+          <g fill="none" stroke="#6c69e3" stroke-width="1.1" vector-effect="non-scaling-stroke">
+            <rect x="0" y="0" width="300" height="400" opacity=".55"/>
+            <path d="M-9 -9 L26 -9 M-9 -9 L-9 26"/>
+            <path d="M309 -9 L274 -9 M309 -9 L309 26"/>
+            <path d="M-9 409 L26 409 M-9 409 L-9 374"/>
+            <path d="M309 409 L274 409 M309 409 L309 374"/>
+            <path d="M-9 200 L-9 214 M309 200 L309 214"/>
+            <path d="M150 -9 L164 -9 M150 409 L164 409"/>
+          </g>
+        </svg>
+      </div>
+
+      <span class="lbl lbl--tl">creative
+        <svg viewBox="0 0 52 56" aria-hidden="true" class="doodle"><path class="stroke draw" style="--len:70" d="M4 4 C 14 16, 26 30, 44 48"/><path class="stroke draw" style="--len:24" d="M33 44 L45 49 L42 36"/></svg>
+      </span>
+      <span class="lbl lbl--tr">detail-oriented
+        <svg viewBox="0 0 52 56" aria-hidden="true" class="doodle"><path class="stroke draw" style="--len:70" d="M48 4 C 38 16, 26 30, 8 48"/><path class="stroke draw" style="--len:24" d="M19 44 L7 49 L10 36"/></svg>
+      </span>
+      <span class="lbl lbl--l">sociable
+        <svg viewBox="0 0 46 40" aria-hidden="true" class="doodle"><path class="stroke draw" style="--len:60" d="M2 8 C 14 8, 26 16, 40 22"/><path class="stroke draw" style="--len:22" d="M28 15 L41 23 L27 28"/></svg>
+      </span>
+      <span class="lbl lbl--r">empathic
+        <svg viewBox="0 0 46 40" aria-hidden="true" class="doodle"><path class="stroke draw" style="--len:60" d="M44 8 C 32 8, 20 16, 6 22"/><path class="stroke draw" style="--len:22" d="M18 15 L5 23 L19 28"/></svg>
+      </span>
+      <span class="lbl lbl--bl">fast learner
+        <svg viewBox="0 0 52 54" aria-hidden="true" class="doodle"><path class="stroke draw" style="--len:70" d="M4 50 C 14 38, 26 24, 44 6"/><path class="stroke draw" style="--len:24" d="M33 10 L45 5 L42 18"/></svg>
+      </span>
+      <span class="lbl lbl--br">motivated
+        <svg viewBox="0 0 52 54" aria-hidden="true" class="doodle"><path class="stroke draw" style="--len:70" d="M48 50 C 38 38, 26 24, 8 6"/><path class="stroke draw" style="--len:24" d="M19 10 L7 5 L10 18"/></svg>
+      </span>
+    </div>
+  </div>
+
+  <div class="hello__body reveal" data-delay="1">
+    <h2>Hello.
+      <svg class="arc doodle" viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true">
+        <path class="stroke draw" style="--len:320" d="M4 22 C 80 4, 200 4, 296 16"/>
+      </svg>
+    </h2>
+    <p class="lede">I'm a Computer Science Engineering student (B.Tech, 2024–2028) and a UI/UX designer based in Vijayawada. I like living on both sides of the screen — sketching flows in Figma, then shipping them in HTML, CSS and JavaScript so the thing I designed is the thing people actually use. Most of my work starts in a place I know well: a handloom seller's shop, a busy road, a college fest. I care about <span class="hl">clarity over decoration<svg class="doodle" viewBox="0 0 220 40" preserveAspectRatio="none" aria-hidden="true"><path class="stroke draw" style="--len:280" d="M6 30 C 50 12, 120 8, 214 22"/><path class="stroke thin draw" style="--len:220" d="M10 24 C 60 34, 140 34, 208 28"/></svg></span> — and I'm always mid-way through something new.</p>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section edu" id="cv">
+  <div class="reveal">
+    <span class="eyebrow">01 — Curriculum Vitae · B.Tech CSE</span>
+    <h2>Education</h2>
+    <p class="edu__intro">Third year of my bachelor's in Computer Science. Design is my craft, code is my safety net — I can hand off a prototype and build the front end of it too.</p>
+
+    <div class="edu__cv">
+      <img id="qr" src="assets/img/qr.svg" alt="QR code linking to my curriculum vitae" width="92" height="92">
+      <span class="cap">scan me
+        <b>my curriculum vitae</b>
+      </span>
+    </div>
+  </div>
+
+  <ul class="edu__list reveal" data-delay="1">
+    <li>
+      <h3>B.Tech — Computer Science &amp; Engineering</h3>
+      <span class="score">CGPA 8.2</span>
+      <span class="meta">PSCMR College of Engineering &amp; Technology · 2024 — 2028</span>
+    </li>
+    <li>
+      <h3>Intermediate — MPC</h3>
+      <span class="score">87%</span>
+      <span class="meta">Sri Chaitanya Junior College · 2022 — 2024</span>
+    </li>
+    <li>
+      <h3>SSC</h3>
+      <span class="score">87%</span>
+      <span class="meta">Sri Chaitanya High School · 2022</span>
+    </li>
+    <li>
+      <h3>UI/UX Design Workshop — Figma</h3>
+      <span class="score">2025</span>
+      <span class="meta">Certification · wireframing, prototyping, design systems</span>
+    </li>
+    <li>
+      <h3>WordPress Website Development Workshop</h3>
+      <span class="score">2025</span>
+      <span class="meta">Certification · responsive theming &amp; page building</span>
+    </li>
+  </ul>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section skills" id="skills">
+  <div class="skills__top">
+    <div class="reveal">
+      <span class="eyebrow">02 — Toolkit</span>
+      <h2>Skills</h2>
+      <div class="tools">
+        <span>Figma</span>
+        <span class="dim">Canva</span>
+        <span class="mono-tool">&lt;/&gt;</span>
+        <span class="dim">Java</span>
+      </div>
+      <p class="tools-cap">I'm always studying my tools</p>
+    </div>
+
+    <div class="reveal" data-delay="1" style="align-self:end">
+      <ul class="spines">
+        <li><span>STEAL<br>LIKE AN<br>ARTIST</span></li>
+        <li><span>DON'T<br>MAKE ME<br>THINK</span></li>
+        <li><span>REFACTORING<br>UI</span></li>
+        <li><span>THE DESIGN<br>OF EVERYDAY<br>THINGS</span></li>
+        <li><span>GRID<br>SYSTEMS</span></li>
+      </ul>
+      <p class="spines-cap">my books about design</p>
+    </div>
+  </div>
+
+  <div class="skills__bottom">
+    <p class="reveal">Designing for the people in front of me, not the dribbble feed. Accessible contrast, real thumb-reach, honest empty states — the small decisions that make an interface feel calm. Then handing it to the browser without losing the spacing I spent an evening on.</p>
+    <div class="reveal" data-delay="1">
+      <ul class="kit">
+        <li>Wireframing</li>
+        <li>High-fidelity prototypes</li>
+        <li>User flows</li>
+        <li>Design systems</li>
+        <li>Personas</li>
+        <li>Empathy maps</li>
+        <li>Moodboards</li>
+        <li>Competitor analysis</li>
+        <li>HTML5 &amp; semantic markup</li>
+        <li>CSS layout — flex &amp; grid</li>
+        <li>JavaScript basics</li>
+        <li>Responsive design</li>
+        <li>WordPress theming</li>
+        <li>Java fundamentals</li>
+        <li>Logo &amp; brand marks</li>
+      </ul>
+      <p class="kit-cap">there's plenty more in my toolkit</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section projects" id="work">
+  <div class="projects__head reveal">
+    <div>
+      <span class="eyebrow">03 — Selected work · B.Tech CSE</span>
+      <h2>Projects.</h2>
+    </div>
+    <p class="note">Hard skills? You'll find them all in here</p>
+  </div>
+
+  <div class="pgrid">
+    <a class="pcard reveal" href="#quantum" data-tag="e-commerce">
+      <span class="num">01</span>
+      <span class="tag">self taught</span>
+      <figure><img src="assets/img/quantum-1.jpg" alt="Quantum Looms storefront screen" loading="lazy"></figure>
+      <figcaption>
+        <div class="pname">Quantum Looms</div>
+        <div class="ptag">E-commerce · Handloom</div>
+      </figcaption>
+    </a>
+
+    <a class="pcard reveal" data-delay="1" href="#rescue" data-tag="hackathon">
+      <span class="num">02</span>
+      <span class="tag">team sprint</span>
+      <figure><img src="assets/img/rescue-1.jpg" alt="RescueTrack dashboard" loading="lazy"></figure>
+      <figcaption>
+        <div class="pname">RescueTrack</div>
+        <div class="ptag">Dashboard · Public safety</div>
+      </figcaption>
+    </a>
+
+    <a class="pcard reveal" data-delay="2" href="#sortlab" data-tag="course project">
+      <span class="num">03</span>
+      <span class="tag">figma file</span>
+      <figure class="fit"><img src="assets/img/sortlab-1.jpg" alt="SortLab sorting visualiser interface" loading="lazy"></figure>
+      <figcaption>
+        <div class="pname">SortLab</div>
+        <div class="ptag">Algorithms · DSA visualiser</div>
+      </figcaption>
+    </a>
+
+    <a class="pcard reveal" data-delay="3" href="#aarambh" data-tag="wordpress">
+      <span class="num">04</span>
+      <span class="tag">responsive build</span>
+      <figure class="fit"><img src="assets/img/event-1.jpg" alt="Aarambh event website hero" loading="lazy"></figure>
+      <figcaption>
+        <div class="pname">Aarambh</div>
+        <div class="ptag">Web · WordPress</div>
+      </figcaption>
+    </a>
+
+    <a class="pcard reveal" data-delay="4" href="#loom" data-tag="branding">
+      <span class="num">05</span>
+      <span class="tag">canva</span>
+      <figure class="fit"><img src="assets/img/logo-1.jpg" alt="Loom logo marks" loading="lazy"></figure>
+      <figcaption>
+        <div class="pname">Loom</div>
+        <div class="ptag">Branding · Identity</div>
+      </figcaption>
+    </a>
+  </div>
+
+  <!-- ---------------- detail blocks ---------------- -->
+  <div class="details">
+
+    <article class="detail" id="quantum">
+      <div class="detail__media reveal">
+        <div class="shots">
+          <img src="assets/img/quantum-1.jpg" alt="Quantum Looms browse screen" loading="lazy">
+          <img src="assets/img/quantum-2.jpg" alt="Quantum Looms product page with weaver card" loading="lazy">
+        </div>
+        <span class="detail__hand">built the prototype in a week</span>
+      </div>
+      <div class="reveal" data-delay="1">
+        <span class="detail__meta">01 — UX/UI · E-commerce, 2025</span>
+        <h3>Quantum Looms</h3>
+        <p>A handloom marketplace that gives the weaver a name, not just a product photo. Andhra weavers lose the story of a saree the moment it reaches a reseller, so the product page leads with the person and the loom — then the price, the drape, the dye.</p>
+        <div class="challenge">
+          <b>my challenge:</b>
+          <p>Make a hand-woven saree feel as buyable online as it does in the shop.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>12</b><span>weaver profiles sketched</span></div>
+          <div class="stat"><b>4</b><span>checkout steps, down from 7</span></div>
+          <div class="stat"><b>1</b><span>week of Figma</span></div>
+        </div>
+        <a class="detail__link" href="cv.html">read the case study →</a>
+      </div>
+    </article>
+
+    <article class="detail" id="rescue">
+      <div class="detail__media reveal">
+        <div class="shots">
+          <img src="assets/img/rescue-1.jpg" alt="RescueTrack incident dashboard" loading="lazy">
+          <img src="assets/img/rescue-2.jpg" alt="RescueTrack SOS mobile screen" loading="lazy">
+        </div>
+        <span class="detail__hand">designed during a 36-hour hackathon</span>
+      </div>
+      <div class="reveal" data-delay="1">
+        <span class="detail__meta">02 — Dashboard · Hackathon, 2025</span>
+        <h3>RescueTrack</h3>
+        <p>An accident-alert console for control rooms and a one-thumb SOS app for the road. Every alert carries the thing a dispatcher actually needs first: how bad, where, and who is already on the way. Colour does one job only — severity — so the map stays readable at 2am.</p>
+        <div class="challenge">
+          <b>my challenge:</b>
+          <p>Show six emergency signals without turning the screen into a siren.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>36h</b><span>hackathon sprint</span></div>
+          <div class="stat"><b>3</b><span>severity levels, one palette</span></div>
+          <div class="stat"><b>1</b><span>tap to raise an alert</span></div>
+        </div>
+        <a class="detail__link" href="cv.html">read the case study →</a>
+      </div>
+    </article>
+
+    <article class="detail" id="sortlab">
+      <div class="detail__media reveal">
+        <div class="shots one">
+          <img src="assets/img/sortlab-1.jpg" alt="SortLab visualiser with bar chart, step counters and complexity table" loading="lazy">
+        </div>
+        <span class="detail__hand">built to study for my DSA exam</span>
+      </div>
+      <div class="reveal" data-delay="1">
+        <span class="detail__meta">03 — Algorithms · Web app, 2026</span>
+        <h3>SortLab</h3>
+        <p>A sorting visualiser I built while revising for my data-structures paper — five algorithms on the same bar chart, stepped at whatever speed you need. Seeing merge sort split and stitch back together taught me more in ten minutes than my notes did in a week, so the comparison and swap counters stay on screen the whole time.</p>
+        <div class="challenge">
+          <b>my challenge:</b>
+          <p>Animate five algorithms without ever freezing the browser.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>5</b><span>algorithms, one canvas</span></div>
+          <div class="stat"><b>200</b><span>bars at full speed</span></div>
+          <div class="stat"><b>O(n log n)</b><span>why merge wins</span></div>
+        </div>
+        <a class="detail__link" href="cv.html">read the case study →</a>
+      </div>
+    </article>
+
+    <article class="detail" id="aarambh">
+      <div class="detail__media reveal">
+        <div class="shots">
+          <img src="assets/img/event-1.jpg" alt="Aarambh 2025 event website, desktop hero" loading="lazy">
+          <img src="assets/img/event-2.jpg" alt="Aarambh 2025 mobile layout" loading="lazy">
+        </div>
+        <span class="detail__hand">shipped on WordPress, no page builder</span>
+      </div>
+      <div class="reveal" data-delay="1">
+        <span class="detail__meta">04 — Web · WordPress, 2025</span>
+        <h3>Aarambh</h3>
+        <p>A responsive event site for a college tech festival: schedule, speakers, sponsors, registration. Built on a light WordPress theme so the student committee could edit the programme themselves at 1am without breaking the layout.</p>
+        <div class="challenge">
+          <b>my challenge:</b>
+          <p>Hand the site to twelve people who have never used a CMS.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>4</b><span>breakpoints tested</span></div>
+          <div class="stat"><b>0</b><span>plugins for layout</span></div>
+          <div class="stat"><b>1</b><span>day to first deploy</span></div>
+        </div>
+        <a class="detail__link" href="cv.html">read the case study →</a>
+      </div>
+    </article>
+
+    <article class="detail" id="loom">
+      <div class="detail__media reveal">
+        <div class="shots">
+          <img src="assets/img/logo-1.jpg" alt="Loom identity: monogram, spool mark, warp and weft circle" loading="lazy" style="grid-column:1/-1">
+        </div>
+        <span class="detail__hand">three directions, one winner</span>
+      </div>
+      <div class="reveal" data-delay="1">
+        <span class="detail__meta">05 — Branding · Canva, 2024</span>
+        <h3>Loom</h3>
+        <p>A logo exploration for a handloom textile label. Three directions from one brief — a woven monogram, a thread spool, and a warp-and-weft circle — all built from the same two-colour palette so the identity still reads at 16px.</p>
+        <div class="challenge">
+          <b>my challenge:</b>
+          <p>Say "hand-made" with geometry, not with texture.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>3</b><span>marks, one palette</span></div>
+          <div class="stat"><b>2</b><span>colours only</span></div>
+        </div>
+        <a class="detail__link" href="cv.html">read the case study →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ FUN FACTS ============ -->
+<section class="section facts" id="notes">
+  <div class="facts__head reveal">
+    <div>
+      <span class="eyebrow">04 — Off the record</span>
+      <h2>Fun<em style="font-style:italic">Facts</em></h2>
+    </div>
+    <p class="hand">the things that never fit on a CV</p>
+  </div>
+  <ul class="reveal" data-delay="1">
+    <li><span class="n">01</span><span>I redesign bad forms in my head while standing in queue</span></li>
+    <li><span class="n">02</span><span>Handloom sarees are my favourite colour palette <em>— Andhra looms do it best</em></span></li>
+    <li><span class="n">03</span><span>I sketch wireframes on the back of my lab records</span></li>
+    <li><span class="n">04</span><span>Three hackathons in, and I still get nervous before demo day</span></li>
+    <li><span class="n">05</span><span>Filter coffee, then Figma. In that order, always</span></li>
+    <li><span class="n">06</span><span>I debug CSS best at 1am, and my DSA lab reports have margins full of arrows</span></li>
+  </ul>
+</section>
+
+<!-- ============ THANK YOU ============ -->
+<section class="section thanks" id="contact">
+  <div class="thanks__grid">
+    <div class="thanks__portrait reveal">
+      <img src="assets/img/portrait.jpg" alt="Poosapati Harshini" loading="lazy">
+      <span class="hand">yes, that's me</span>
+    </div>
+
+    <div class="reveal" data-delay="1">
+      <span class="eyebrow">05 — Get in touch</span>
+      <h2>Thankyou</h2>
+
+      <div class="thanks__contact">
+        <b>mail</b> &nbsp;<a href="mailto:poosapatiharshini27@gmail.com">poosapatiharshini27@gmail.com</a><br>
+        <b>phone</b> &nbsp;<a href="tel:+918919031239">+91 89190 31239</a><br>
+        <b>base</b> &nbsp;Vijayawada, Andhra Pradesh
+      </div>
+
+      <div class="socials">
+        <a href="https://linkedin.com/in/poosapati-harshini-833750374" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:poosapatiharshini27@gmail.com">Email</a>
+        <a href="cv.html">Curriculum Vitae</a>
+      </div>
+
+      <div class="thanks__copy">
+        <p>I'm a student with a small portfolio and a lot of curiosity, and I'd rather say that plainly. What I can promise is a designer who reads the brief twice, ships the CSS herself, and asks questions early instead of guessing late.</p>
+        <p>If you're looking for an intern who will grow into the role, I'd love to talk.</p>
+      </div>
+
+      <div class="sign">
+        <span class="name">Harshini</span>
+        <a class="up" href="#cover">back to top ↑</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>Poosapati Harshini — Portfolio 2026</span>
+  <span>Designed &amp; built in Vijayawada</span>
+  <span>Curriculum Vitae</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
